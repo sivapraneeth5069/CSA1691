@@ -1,0 +1,10 @@
+data=c(200,300,400,600,1000)
+min_value=50000
+max_value=100000
+v=80
+min_max_normalized=(v-min_value)/(max_value-min_value)
+min_max_normalized
+mean_value=mean(data)
+standard_deviation=sd(data)
+z_score_normalized=(v-mean_value)/standard_deviation
+z_score_normalized

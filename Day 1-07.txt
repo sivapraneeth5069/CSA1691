@@ -1,0 +1,4 @@
+mean(pencils)
+median(pencils)
+mode=names(table(pencils))[table(pencils)==max(table(pencils))]
+mode
